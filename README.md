@@ -1,2 +1,3 @@
-# fabric-mod-template
-Template for a Fabric Mod
+# Fabric Example Mod
+
+Fabric Example Mod with Kotlin DSL

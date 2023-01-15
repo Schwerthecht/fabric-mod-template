@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "Example Description",
+  "authors": [
+    "Author"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "issues": "https://fabricmc.net/",
+    "sources": "https://fabricmc.net/"
+  },
+
+  "license": "",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.schwerthecht.template.TemplateMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
